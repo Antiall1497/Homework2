@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #322b2b;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    z-index:0;
+}
+
+h1 {
+    padding-top: 50px;
+    margin: 0px;
+}
+
+#showcase .bg-image {
+    background-image: url(https://techrocks.ru/wp-content/uploads/2019/02/code.jpg)
+    z-index:-1;
+    position:absolute
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+.btn:hover {
+    background: antiquewhite;
+    color: #333
+}
+
+#showcase .bg-image {
+    position: absolute;
+    background: #333
+    url("https://i.stack.imgur.com/0n5Eg.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+#section-a {
+    position:absolute
+    color: #333;
+    background-color: #181515;
+    margin-top:140px;
+    width:100%
+    z-index:-1;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0px;
+}
+#section-b {
+    padding: 2em 1em 1em;
+}
+
+#section-b ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background: rgb(14, 13, 13);
+    color: #e0dbdb;
+
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+.img2 {
+    width:200px;
+    height: 150px;
+margin-top:20px;
+}
+
+#section-c {
+    background: rgb(14, 13, 13);;
+    color: #d5d0d0;
+    padding: 2em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+    #section-a .content-text {
+        columns: 2;
+        column-gap: 2em;
+    }
+
+    #section-a .content-text p {
+        padding-top: 0;
+    }
+
+.content-wrap,
+#section-b ul {
+    grid-column: 2/4;
+}
+
+.box,
+#main-footer div {
+    grid-column: span 2;
+}
+
+#section-b ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-b li {
+    width: 31%;
+}
+}
